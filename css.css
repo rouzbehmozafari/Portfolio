@@ -97,6 +97,25 @@ section:nth-of-type(odd) a:hover {
     color: black;
 }
 
+section:nth-of-type(odd) a:hover +p {
+    color:white;
+    opacity:1;
+}
+section:nth-of-type(even) a:hover +p {
+    color:black;
+    opacity:1;
+}
+section article p:last-child {
+    font-family: Fjalla One;
+    font-size: 70px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9E9E9E;
+    opacity: 0.2;
+    margin-right: 7%;
+}
+
 
 section:nth-of-type(even) a {
     border:solid black 1px;
