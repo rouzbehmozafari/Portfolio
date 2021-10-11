@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Work Sans, Didact Gothic, Fjalla One";
+
+}
+
+body {
+    background: #FFFFFF;
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+}
+
+header img{
+    height: 60vh;
+}
+
+header p {
+    margin-bottom: 60px;
+}
+
+h2{
+    font-family: 'Didact Gothic', sans-serif;    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    line-height: 130%;
+}
+header h1 {
+    font-family: Work Sans;
+    font-style: normal; 
+    font-weight: normal;
+    /* identical to box height */
+    text-transform: uppercase;
+}
+
+section:nth-of-type(1) {
+    background-image: url('images/portfolio2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section:nth-of-type(odd) {
+    height: 70vh;
+}
+section:nth-of-type(even) {
+    height: 90vh;
+}
+
+h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+
+}
+
+
+h3:nth-of-type(odd) {
+    color: #FFFFFF;
+    
+}
+h3:nth-of-type(even) {
+    color: black;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+section a {
+    font-size: 15px;
+    padding: 7px 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+section:nth-of-type(odd) a {
+    border:solid white 1px;
+    color: white;
+}
+section:nth-of-type(even) a {
+    border:solid black 1px;
+    color: black;
+}
+section:nth-of-type(odd) h3 {
+    color: white;
+    
+}
+section:nth-of-type(even) h3 {
+    color: black;
+}
+
+section p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+}
+
+section p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+article {
+    margin-left: 20%;
+    padding-top: 6%;
+}
+
+article p:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
+section>p {
+font-family: Fjalla One;
+font-size: 70px;
+text-align: right;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #9E9E9E;
+opacity: 0.2;
+margin-right: 7%;
+}
+
+section:nth-of-type(even)>p {
+    opacity: 100;
+    }
+
+section:nth-of-type(2) {
+    background-image: url('images/portfolio3.png');
+}
+
+section:nth-of-type(3) {
+    background-image: url('images/portfolio4.jpg');
+}
+
+section:nth-of-type(4) {
+    background-image: url('images/portfolio5.png');
+}
+
+section:nth-of-type(5) {
+    background-color: black;
+    height: inherit;
+
+}
+section:nth-of-type(5) article {
+    margin-right: 20%;
+    margin-left: 40%;
+    padding-bottom: 90px;
+}
+section:nth-of-type(5) h1{
+    color: white;
+    text-align: center;
+    padding: 30px auto 20px auto;
+    padding-top: 70px;
+    font-size: 80px;
+    font-family: 'Work Sans', sans-serif;
+}
+section:nth-of-type(5) p {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    color: #666666;
+    opacity: 100;
+    
+}   
+section:nth-of-type(5) a {
+    border: none;
+    padding-left: 0;
+    font-size: 30px;
+}   
+
+footer ul {
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vw;
+    line-height: 150%;
+    /* identical to box height */
+    text-align: center;
+}
+
+ul li {
+    font-family: Didact Gothic;
+}
+
+footer img {
+    margin: 60px 50vw 10px ;
+    animation: animateHeart 1s infinite;
+}
+@keyframes animateHeart {
+    0% {
+      transform: scale(0.8);
+    }
+    5% {
+      transform: scale(0.9);
+    }
+    10% {
+      transform: scale(0.8);
+    }
+    15% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(0.8);
+    }
