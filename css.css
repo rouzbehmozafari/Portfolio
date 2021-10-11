@@ -70,6 +70,7 @@ h3:nth-of-type(odd) {
     color: #FFFFFF;
     
 }
+
 h3:nth-of-type(even) {
     color: black;
 }
@@ -91,9 +92,19 @@ section:nth-of-type(odd) a {
     border:solid white 1px;
     color: white;
 }
+section:nth-of-type(odd) a:hover {
+    background-color: white;
+    color: black;
+}
+
+
 section:nth-of-type(even) a {
     border:solid black 1px;
     color: black;
+}
+section:nth-of-type(even) a:hover {
+    background-color: black;
+    color: white;
 }
 section:nth-of-type(odd) h3 {
     color: white;
